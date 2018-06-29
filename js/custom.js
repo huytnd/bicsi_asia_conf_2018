@@ -72,7 +72,7 @@ $(function(){
     /* 
    One Page Navigation & wow js
    ========================================================================== */
-  jQuery(function($) {
+/*  jQuery(function($) {
       //Initiat WOW JS
       new WOW().init();
 
@@ -81,7 +81,7 @@ $(function(){
               currentClass: 'active'
       });    
   });
-
+*/
   jQuery(document).ready(function() {
      
       $('body').scrollspy({
