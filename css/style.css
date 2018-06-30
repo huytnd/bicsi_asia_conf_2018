@@ -87,6 +87,7 @@ li{
     color:#fff;
     font-size:24px;
     font-family:italic;
+    margin-top:10px;
 }
 a,
 a:visited,
@@ -572,9 +573,10 @@ blockquote {
     /* padding: inherit; */
     overflow: hidden;
     text-transform: uppercase;
+    margin: 10px;
 }
   
-  .topnav a {
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -582,11 +584,16 @@ blockquote {
     padding: 10px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: serif;
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    border:1px solid #ccc;  
+    color: white;
+    border-radius:10px;
+    padding:none;
   }
   
   .active {
@@ -1655,7 +1662,7 @@ blockquote {
     top: 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -1673,7 +1680,7 @@ blockquote {
 }
 
 .page-demo-overlay a:hover {
-    background-color: #0a89ff;
+background-color: #0a89ff;
     color: #fff;
 }
 
