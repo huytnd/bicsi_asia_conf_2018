@@ -143,6 +143,11 @@ p {
     margin-top: 1rem;
     margin-bottom: 0;
 }
+p.title{
+  font-size:24px;
+  font-family:serif;
+  text-align:center;
+}
 
 blockquote {
     color: #777
@@ -348,6 +353,7 @@ blockquote {
 
 .header-top {
     padding: 15px 0;
+    /* float:  right; */
 }
 
 .header-contact-info ul li {
@@ -425,7 +431,7 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #main-banner {
-    background-image: url(../img/slider-1.jpg);
+    background-image: url(../images/slider.jpg);
     background-position: top;
 }
 
