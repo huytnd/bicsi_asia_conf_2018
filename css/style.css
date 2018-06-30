@@ -751,6 +751,7 @@ blockquote {
 
 .why-us-content p {
     margin: 15px 0 24px;
+    text-align:  justify;
 }
 
 .why-us-features ul li {
