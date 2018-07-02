@@ -77,9 +77,10 @@ $(function(){
       new WOW().init();
 
       // one page navigation 
+      /*
       $('.main-navigation').onePageNav({
               currentClass: 'active'
-      });    
+      });    */
   });
 
   jQuery(document).ready(function() {
