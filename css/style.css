@@ -282,7 +282,7 @@ blockquote {
     z-index: 9999999;
 }
 
-#preloader .spinner {;
+#preloader .spinner {
   margin: 300px auto;
   width: 50px;
   height: 40px;
@@ -682,7 +682,7 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #features {
-    padding: 80px 0 50px;
+    padding: 50px 0 50px;
 }
 
 .feature-single {
@@ -697,7 +697,8 @@ blockquote {
     -webkit-box-shadow: 0 0 20px rgba(144, 126, 125, 0.17);
     box-shadow: 0 0 20px rgba(144, 126, 125, 0.17);
     -webkit-transform: scale(1.05);
-    transform: scale(1.05)
+    transform: scale(1.05);
+    cursor:pointer;
 }
 
 .feature-single img {
@@ -800,9 +801,11 @@ blockquote {
 /*-------------------------------------------------------------------------------------
     Pricing
 ---------------------------------------------------------------------------------------*/
+ /*
 #pricing{
-    padding: 80px 0 50px;
+    padding: 80px 0 50px; 
 }
+*/
 .pricing-table-single {
     background-color: #fff;
     padding: 20px 0 40px;
