@@ -143,11 +143,6 @@ p {
     margin-top: 1rem;
     margin-bottom: 0;
 }
-p.title{
-  font-size:24px;
-  font-family:serif;
-  text-align:center;
-}
 
 blockquote {
     color: #777
@@ -353,7 +348,6 @@ blockquote {
 
 .header-top {
     padding: 15px 0;
-    /* float:  right; */
 }
 
 .header-contact-info ul li {
@@ -431,7 +425,7 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #main-banner {
-    background-image: url(../images/slider.jpg);
+    background-image: url(../img/slider-1.jpg);
     background-position: top;
 }
 
@@ -550,7 +544,7 @@ blockquote {
     About
 ---------------------------------------------------------------------------------------*/
 
-#about {
+#exhibitor_prospectus {
     padding: 80px 0;
 }
 
@@ -682,7 +676,7 @@ blockquote {
 ---------------------------------------------------------------------------------------*/
 
 #features {
-    padding: 50px 0 50px;
+    padding: 80px 0 50px;
 }
 
 .feature-single {
@@ -697,8 +691,7 @@ blockquote {
     -webkit-box-shadow: 0 0 20px rgba(144, 126, 125, 0.17);
     box-shadow: 0 0 20px rgba(144, 126, 125, 0.17);
     -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    cursor:pointer;
+    transform: scale(1.05)
 }
 
 .feature-single img {
@@ -752,7 +745,6 @@ blockquote {
 
 .why-us-content p {
     margin: 15px 0 24px;
-    text-align:  justify;
 }
 
 .why-us-features ul li {
@@ -801,11 +793,9 @@ blockquote {
 /*-------------------------------------------------------------------------------------
     Pricing
 ---------------------------------------------------------------------------------------*/
- /*
 #pricing{
-    padding: 80px 0 50px; 
+    padding: 80px 0 50px;
 }
-*/
 .pricing-table-single {
     background-color: #fff;
     padding: 20px 0 40px;
@@ -1622,4 +1612,14 @@ blockquote {
 
 #homepage-demo h4 a:hover {
     color: #0a89ff;
+}
+
+/*------------------------------------
+--------------------------------------*/
+#attendee_demographics {
+    padding: 80px 0 50px;
+}
+
+#sponsorship_level {
+    padding: 80px 0 50px;
 }
